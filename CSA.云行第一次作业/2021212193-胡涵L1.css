@@ -1,0 +1,210 @@
+
+* {
+    padding:0;
+    margin:0;
+}
+.all {
+    position: absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    margin: auto;
+    width:300px;
+    height:400px;
+    border:1px solid rgb(228, 223, 223);
+}
+.all .firstline1 {
+    position:absolute;
+    top:5px;
+    left:20px;
+    width:75px;
+    height:35px;
+    font:400 15px/35px "Microsoft";
+    color:rgb(98, 98, 98);
+}
+.all .firstline2 {
+    position: absolute;
+    top:5px;
+    left:100px;
+    margin-left:15px;
+    width:60px;
+    height:35px;
+    font:400 15px/35px "Microsoft";
+    color:rgb(98, 98, 98);
+}
+.all .firstline1:hover,
+.all .firstline2:hover {
+    font:700 15px/35px "Microsoft";
+    border-bottom:4px solid rgba(0, 99, 249);
+}
+.all .firstline3 {
+    position: absolute;
+    top:1px;
+    right:0px;
+    width:70px;
+    height:70px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image:url(Inkederweima1.0._LI.jpg);
+    
+}
+.all .secondline {
+    position: absolute;
+    top:60px;
+    left:20px;
+}
+.all .thirdline {
+    position: absolute;
+    top:110px;
+    left:20px;
+}
+.all .thirdline1 {
+    position: absolute;
+    top:125px;
+    right:25px;
+    font-family: 'iconfont';
+    font-size:25px;
+    font-style: normal;
+    color:rgb(151, 149, 149);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle;
+}
+.all .secondline,
+.all .thirdline {
+    width:260px;
+    height:40px;
+    border:none;
+    border-bottom:1px solid rgb(226, 223, 223);
+    font:400 10px/40px "Microsoft";
+    color:grey;
+}
+.all .forthline {
+    position: absolute;
+    left:20px;
+    top:160px;
+    width:260px;
+    height:35px;
+}
+.all .forthline a:nth-child(1) {
+    float:left;
+    font:10px "Microsoft";
+    color:rgb(122, 155, 192);
+    text-decoration: none;
+}
+.all .forthline a:nth-child(2) {
+    float:right;
+    font:10px "Microsoft";
+    color:rgba(119, 115, 115, 0.849);
+    text-decoration: none;
+}
+.all .fifthline {
+    position: absolute;
+    left:20px;
+    top:200px;
+    width:260px;
+    height:35px;
+    background-color:rgba(1, 102, 255) ;
+    font:12px/35px "Microsoft";
+    text-align: center;
+    color:white;
+    border:none;
+}
+.all .sixthline {
+    position: absolute;
+    top:258px;
+    left:20px;
+    width:260px;
+    height:50px;
+    font:400 10px "Microsoft";
+    color:grey;
+    border-bottom:1px solid rgba(209, 205, 205, 0.836); 
+}
+.all .sixthline a:nth-child(1),
+.all .sixthline a:nth-child(2) {
+    text-decoration: none;
+    color:grey;
+}
+.all .seventhline {
+    position: absolute;
+    left:20px;
+    top:320px;
+    width:260px;
+    height:40px;
+}
+.all .seventhline span:nth-child(1),
+.all .seventhline span:nth-child(2),
+.all .seventhline span:nth-child(3),
+.all .seventhline span:nth-child(4) {
+    float:left;
+    font:400 10px/40px "Microsoft";
+    color:grey;
+}
+.all .seventhline span:nth-child(2) {
+    margin-left: 50px;
+}
+.all .seventhline span:nth-child(2):before {
+    content:'\e62f';
+    font-family: 'iconfont';
+    font-size: 15px;
+    color:rgb(97, 200, 78);
+    -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+.all .seventhline span:nth-child(3),
+.all .seventhline span:nth-child(4) {
+    margin-left: 10px;
+}
+.all .seventhline span:nth-child(3)::before {
+    content:'\e882';
+    font-family: 'iconfont';
+    font-size:15px;
+    color:rgb(79, 200, 254);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.all .seventhline span:nth-child(4)::before {
+    content:'\e600';
+    font-family: 'iconfont';
+    font-size:15px;
+    color:rgb(252, 100, 29);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.all .eighthline {
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(246, 246, 246);
+    width:300px;
+    height:40px;
+    font:13px/40px "Microsoft";
+    color:rgba(9, 134, 237);
+}
+.all .eighthline span:nth-child(1) {
+    margin-left:20px;
+    float:left;
+}
+.all .eighthline span:nth-child(2) {
+    margin-right: 20px;
+    float:right;
+}
+.all .eighthline span:nth-child(1)::before {
+    content:'\e8bd';
+    font-style: normal;
+    font-family: 'iconfont';
+    font-size: 20px;
+    color:blue;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle;
+}
+.all .eighthline span:nth-child(2)::before {
+    content:'\ea8b';
+    font-family: 'iconfont';
+    font-size: 24px;
+    color:blue;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle;
+}

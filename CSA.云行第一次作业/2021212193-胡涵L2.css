@@ -1,0 +1,18 @@
+
+.main {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width:1200px;
+    height:420px;
+}
+.main span:nth-child(n) {
+    margin-left: 20px;
+    margin-top: 10px;
+    width:200px;
+    height:200px;
+    background-image:url(xiaoxin.jpg);
+    background-size: 200px 200px;
+
+}
